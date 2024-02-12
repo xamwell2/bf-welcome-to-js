@@ -1,8 +1,13 @@
+'use strict';
+
 /* --- for the computer --- 'use strict';
 
 /* --- for developers --- */
 
+debugger;
+
 // log to the console for developers to read
+
 console.log('hello developer (console)');
 
 /* --- for users --- */
@@ -10,7 +15,7 @@ console.log('hello developer (console)');
 // alert hello for the user
 //  not a great UX, but easy to program
 //  you'll use this for now
-alert('hello user (alert)');
+alert('hello user (alert)'); // alert message
 
 // write hello in the main User Interface
 //  this uses the Document Object Model (DOM)
