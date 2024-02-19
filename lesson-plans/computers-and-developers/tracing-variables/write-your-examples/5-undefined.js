@@ -11,4 +11,4 @@ const age = Number(prompt('Enter your age')); //Declaration of "age" variable.
 
 let name = prompt('Enter your name'); // Declaration of "name" variable.
 
-console.log('Hi ' + name + ' your age is ' + age + '.');
+confirm('Hi ' + name + ' your age is ' + age + '.');

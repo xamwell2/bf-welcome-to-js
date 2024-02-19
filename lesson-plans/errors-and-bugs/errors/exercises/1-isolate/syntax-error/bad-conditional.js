@@ -1,9 +1,6 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
-
 
 /*
   environment:
@@ -23,11 +20,9 @@ console.log('--- in execution phase ---');
 let userName = 'indrogo';
 
 if (userName.length < 3) {
-  console.log('too short');
-} else (userName.length < 5) {
-  console.log('just right');
+  console.log('Too short');
+} else if (userName.length < 5) {
+  console.log('Just right');
 } else {
-  console.log('too long');
+  console.log('Too long');
 }
-
-
