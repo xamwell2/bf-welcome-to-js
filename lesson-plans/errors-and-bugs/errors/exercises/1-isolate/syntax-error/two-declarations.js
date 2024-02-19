@@ -19,4 +19,6 @@ console.log('--- in execution phase ---');
 
 let tree = 'oak';
 
-let tree = 'birch';
+let secondTree = 'birch';
+
+console.log(tree + ' and ' + secondTree + ' are both ' + tree + 's.');
